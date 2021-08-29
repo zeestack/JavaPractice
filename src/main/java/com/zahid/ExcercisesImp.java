@@ -6,7 +6,7 @@ import java.util.function.Supplier;
 import java.util.stream.IntStream;
 
 public class ExcercisesImp implements Excercises {
-    
+
     public String largestPassword(String s) {
         String[] words = s.split(" ");
         String longestPassword = "";

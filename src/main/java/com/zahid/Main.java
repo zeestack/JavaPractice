@@ -1,7 +1,7 @@
 package com.zahid;
 
+import com.zahid.executor.ExecutorDemo;
 import com.zahid.lambda.LambdasDemo;
-import com.zahid.streams.StreamDemo;
 
 
 public class Main {
@@ -19,7 +19,11 @@ public class Main {
         var printer = new LambdasDemo();
         printer.show();
 
-        StreamDemo.show();
+        //StreamDemo.show();
 
+        //ExecutorDemo.show();
+
+        //ExecutorDemo.onComplete();
+        ExecutorDemo.combineTasks();
     }
 }
